@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm intsall webpack -dev-server -g'
+                sh 'npm intsall'
             }
         }
         stage('Test') {
